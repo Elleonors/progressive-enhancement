@@ -9,7 +9,7 @@ body {
     background-color: rgb(53, 116, 209);
 }
 
-h1 {;
+h1 {
     text-align: center;
 }
 
@@ -27,6 +27,8 @@ img {
     margin-right: auto;
     width: 40%;
 }
-p q {
-    text-align: center
+.response {
+    width: 50%;
+   color: rgb(10, 49, 10);
+   margin: 0 auto;
 }
