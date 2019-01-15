@@ -38,6 +38,10 @@ html {
             text-align: right;      
         }
 
+        blockquote {
+            font-style: italic;
+        }
+
             .villageois {
                 width: 50%;
                 margin: 80px auto;
@@ -58,10 +62,66 @@ html {
                 padding-left: 30px;
             }
 
-            .table {
-                width: 100%;
-            }
+                .table {
+                    width: 100%;
+                }
 
             .date-et-nom {
                 background-color: #E89E32
             }
+
+                .bien {
+                    font-style: initial;
+                    text-transform: uppercase;
+                    color: #85B23F
+                }
+
+                .mal {
+                    font-style: initial;
+                    text-transform: uppercase;
+                    color: #B22222
+                }
+
+            tr:nth-child(even) {
+                background: grey;
+            }
+
+            tr:nth-child(2n+3) {
+                background: white;
+            }
+
+                ul {
+                    list-style:none;
+                }
+
+                ul li:first-of-type {
+                    background-size: 18px;
+                    background-image: url("bien.png");
+                    background-repeat: no-repeat;
+                    padding-left: 20px;
+                }
+
+                ul li:nth-last-of-type(3) {
+                    background-size: 18px;
+                    background-image: url("mal.png");
+                    background-repeat: no-repeat;
+                    padding-left: 20px;
+                }
+
+                ul li:nth-last-of-type(2) {
+                    background-size: 18px;
+                    background-image: url("chat.png");
+                    background-repeat: no-repeat;
+                    padding-left: 20px;
+                }
+
+                ul li:nth-last-of-type(1) {
+                    background-size: 18px;
+                    padding-left: 20px;
+                }
+            
+            p:first-of-type {
+                font-weight: bold;
+            }
+
+
