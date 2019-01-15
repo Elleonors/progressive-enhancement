@@ -1,34 +1,74 @@
 html {
-    background-color: black;
+    background-image: radial-gradient(ellipse at center, #ABC9E8, #F9FFBD);
 }
 
-body {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: rgb(53, 116, 209);
-}
+    body {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-image: radial-gradient(ellipse at center, #ABC9E8, #F9FFBD);
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Caduceus.svg/800px-Caduceus.svg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
-h1 {
-    text-align: center;
-}
+        header {
+            color: #B20E02;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #B20E02;
+        }
 
-h2 {
-    padding-left: 2%
-}
+        h2 {
+            padding-left: 2%;
+            color: #B20E02;
+        }
     
-p {
-    margin: 3%;
-}
+        p {
+            margin: 3%;
+            color: #B20E02;
+        }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-}
-.response {
-    width: 50%;
-   color: rgb(10, 49, 10);
-   margin: 0 auto;
-}
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+        }
+
+        figcaption {
+            font-size: 75%;
+            font-style: italic;
+            text-align: right; 
+            color: #B20E02;         
+        }
+        
+        ul {
+            color: #B20E02;
+        }
+
+            .villageois {
+                width: 50%;
+                margin: 80px auto;
+                text-align: center;
+                background-color: #ABC9E8;
+                font-size: 160%;
+                border-left: solid #B22222 3px;
+                padding-left: 30px;
+                color: #B20E02;
+            }
+
+            .fermier {
+                width: 50%;
+                margin: 0 90% 0 10%;
+                font-style: oblique;
+                font-size: 160%;
+                color: #B20E02;
+            }
+
+            .table {
+                width: 100%;
+                color: #B20E02;
+            }
