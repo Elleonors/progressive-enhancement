@@ -11,7 +11,20 @@ html {
         background-repeat: no-repeat;
         background-position: bottom right;
         background-size: cover;
+        border-radius: 20px;
     }
+     
+    footer {
+        text-align: center;
+        /*
+        margin: auto;
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+        background-color: red;
+        */
+    }  
+    
 
         h1 {
             text-align: center;
@@ -26,21 +39,29 @@ html {
         }
 
         img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 40%;
+            width: 50%;
+            float: right;
+            padding: 0 0 5% 2%;
         }
 
         figcaption {
             font-size: 75%;
-            font-style: italic;
-            text-align: right;      
+            font-style: italic; 
+            text-align: right;
         }
 
         blockquote {
             font-style: italic;
+            clear: both;
         }
+
+        ul {
+            list-style:none;
+        }
+
+            .c {
+                font-size: 250%;
+            }
 
             .villageois {
                 width: 50%;
@@ -90,10 +111,6 @@ html {
                 background: white;
             }
 
-                ul {
-                    list-style:none;
-                }
-
                 ul li:first-of-type {
                     background-size: 18px;
                     background-image: url("bien.png");
@@ -124,4 +141,6 @@ html {
                 font-weight: bold;
             }
 
-
+                .quote-clear {
+                    margin-top: 15%;
+                }
