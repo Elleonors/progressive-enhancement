@@ -61,6 +61,10 @@ html {
             list-style:none;
         }
 
+        a {
+            font-size: 120%;
+        }
+
             .c {
                 font-size: 250%;
             }
@@ -150,3 +154,17 @@ html {
                 .p-histoire {
                     padding-top: 10%;
                 }
+
+                @font-face {
+                    font-family: 'Open-Sans';
+                    src: url('regular/OpenSans-Regular-webfont.eot');
+                    /* IE9 Compat Modes */
+                    src: url('webfont.eot?#iefix') format('embedded-opentype'),
+                    /* IE6-IE8 */
+                    url('open-sans/OpenSans-Regular-webfont.woff') format('woff'),
+                    /* Modern Browsers */
+                    url('open-sans/OpenSans-Regular-webfont.ttf') format('truetype'),
+                    /* Safari, Android, iOS */
+                    url('open-sans/OpenSans-Regular-webfont.svg') format('svg');
+                    /* Legacy iOS */
+                    }
