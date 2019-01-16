@@ -36,6 +36,7 @@ html {
     
         p {
             margin: 3%;
+            line-height: 2rem;
         }
 
         img {
@@ -48,6 +49,7 @@ html {
             font-size: 75%;
             font-style: italic; 
             text-align: right;
+            padding-top 3% 0 3% 0 ;
         }
 
         blockquote {
@@ -143,4 +145,8 @@ html {
 
                 .quote-clear {
                     margin-top: 15%;
+                }
+
+                .p-histoire {
+                    padding-top: 10%;
                 }
