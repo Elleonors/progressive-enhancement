@@ -134,21 +134,21 @@ html {
 
                 ul li:first-of-type {
                     background-size: 18px;
-                    background-image: url("/home/elleonors/Documents/Projets/progressive-enhancement/Images/bien.png");
+                    background-image: url("Images/bien.png");
                     background-repeat: no-repeat;
                     padding-left: 20px;
                 }
 
                 ul li:nth-last-of-type(3) {
                     background-size: 18px;
-                    background-image: url("/home/elleonors/Documents/Projets/progressive-enhancement/Images/mal.png");
+                    background-image: url("Images/mal.png");
                     background-repeat: no-repeat;
                     padding-left: 20px;
                 }
 
                 ul li:nth-last-of-type(2) {
                     background-size: 18px;
-                    background-image: url("/home/elleonors/Documents/Projets/progressive-enhancement/Images/chat.png");
+                    background-image: url("Images/chat.png");
                     background-repeat: no-repeat;
                     padding-left: 20px;
                 }
