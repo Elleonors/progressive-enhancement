@@ -1,5 +1,5 @@
 html {
-    background-image: radial-gradient(ellipse at center, #B27102, #F9FFBD);
+    background-image: radial-gradient(ellipse at center, #ABC9E8, #F9FFBD);
 }
 
 @font-face {
@@ -136,7 +136,7 @@ html {
                 .bien {
                     font-style: initial;
                     text-transform: uppercase;
-                    color: #85B23F
+                    color: green;
                 }
 
                 .mal {
