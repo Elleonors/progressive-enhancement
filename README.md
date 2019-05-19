@@ -13,7 +13,6 @@ C'est une façon pour nous de faire le plus possible à partir de rien , d'une f
 Il s'agit de notre deuxième projet , et de notre premier mois de code.
 nous pouvons observer des structures de base : des tables, des listes , des objets différents.
 
-
 ## validations
 voici nos validation en lighthous et W3C :
 
